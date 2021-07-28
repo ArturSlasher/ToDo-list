@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AComponent } from './a.component';
+import { BluecircleComponent } from './bluecircle.component';
 
-describe('AComponent', () => {
-  let component: AComponent;
-  let fixture: ComponentFixture<AComponent>;
+describe('BluecircleComponent', () => {
+  let component: BluecircleComponent;
+  let fixture: ComponentFixture<BluecircleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AComponent ]
+      declarations: [ BluecircleComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AComponent);
+    fixture = TestBed.createComponent(BluecircleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -9,13 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'atomangularfirstproject';
-  x = 10*100;
+  time = 0;
 
-  constructor() {
-    setTimeout(() => this.title = "ATOMSPACE", 2000)
-  }
-
-  sayHello(name: string) {
-    return `Hello, ${name}`;
+  Timer(){
+    setTimeout(() => this.time += 1, 10000)
+    return this.time;
   }
 }

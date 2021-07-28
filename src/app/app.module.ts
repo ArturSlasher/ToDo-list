@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AComponent } from './components/a/a.component';
-import { BComponent } from './components/b/b.component';
+import { RedrectangleComponent } from './components/redrectangle/redrectangle.component';
+import { BluecircleComponent } from './components/bluecircle/bluecircle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AComponent,
-    BComponent
+    RedrectangleComponent,
+    BluecircleComponent
   ],
   imports: [
     BrowserModule,
