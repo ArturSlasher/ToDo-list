@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BluecircleComponent } from './bluecircle.component';
+import { TaskComponent } from './task.component';
 
-describe('BluecircleComponent', () => {
-  let component: BluecircleComponent;
-  let fixture: ComponentFixture<BluecircleComponent>;
+describe('TaskComponent', () => {
+  let component: TaskComponent;
+  let fixture: ComponentFixture<TaskComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BluecircleComponent ]
+      declarations: [ TaskComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BluecircleComponent);
+    fixture = TestBed.createComponent(TaskComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

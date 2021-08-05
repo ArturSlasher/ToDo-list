@@ -8,11 +8,5 @@ import { Component } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  title = 'atomangularfirstproject';
-  time = 0;
-
-  Timer(){
-    setTimeout(() => this.time += 1, 10000)
-    return this.time;
-  }
+  
 }
