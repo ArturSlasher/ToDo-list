@@ -1,4 +1,6 @@
-# Atomangularfirstproject
+To-Do list web-app built on Angular in Atom Space course
+
+# ToDo-list
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
